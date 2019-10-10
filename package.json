@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "js-algorithms",
+  "version": "1.0.0",
+  "repository": "https://github.com/subakaev/js-algorithms.git",
+  "author": "Sergey Bakaev <bakaev@yandex.ru>",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.17.0"
+  }
+}
