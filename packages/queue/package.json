@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx ."
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
+    "build": "rm -rf dist && tsc"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.3.3",
