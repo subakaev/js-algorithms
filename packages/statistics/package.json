@@ -1,12 +1,8 @@
 {
-  "private": true,
-  "name": "@js-algorithms/queue",
+  "name": "@js-algorithms/statistics",
   "version": "1.0.0",
+  "main": "index.js",
   "license": "MIT",
-  "scripts": {
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
-    "build": "rm -rf dist && tsc"
-  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.27.0",
     "eslint": "^6.8.0",
