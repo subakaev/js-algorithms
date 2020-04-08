@@ -1,6 +1,6 @@
-export const mean = (arr: number[] = []): number => (arr.length > 0 ? arr.reduce((acc: number, item: number): number => acc + item) / arr.length : 0);
+export const getMean = (arr: number[] = []): number => (arr.length > 0 ? arr.reduce((acc: number, item: number): number => acc + item) / arr.length : 0);
 
-export const weightedMean = (values: number[] = [], weights: number[] = []): number => {
+export const getWeightedMean = (values: number[] = [], weights: number[] = []): number => {
   if (values.length === 0 || values.length !== weights.length) {
     return NaN;
   }
